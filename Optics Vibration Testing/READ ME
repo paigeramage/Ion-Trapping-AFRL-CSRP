@@ -1,0 +1,43 @@
+# Imaging Optics Vibration Testing
+This analysis uses a Thorlabs TTL100-A telecentric lens and a Positive 1951 USAF resolution test target illuminated by a flashlight to 
+determine how UAS mechanical vibrations affect the performance of an imaging system. The objective is to quantify optical capabilities,
+image displacement, vibration blur, sharpness, contrast, and resolution degradation caused by vibrations in all three spatial directions.
+
+The test target provides known high-contrast spatial features that can be tracked throughout a recorded image sequence. Motion 
+perpendicular to the optical axis is measured primarily through X and Y image displacement, while vibration parallel to the optical 
+axis (Z) is evaluated through changes in focus and image quality.
+
+#Setup
+The imaging system should consist of:
+1. Thorlabs TTL100-A telecentric lens (https://www.thorlabs.com/item/TTL100-A)
+2. Allied Vision 1800 U-1240m Camera (https://www.edmundoptics.com/p/allied-vision-alvium-1800-u-1240m-117-1222mp-c-mount-usb-31-monochrome-camera/44763/)
+3. Positive 1951 USAF resolution test target (https://www.thorlabs.com/resolution-test-targets?tabName=Overview)
+4. Fiber tip plugged into a 4.6 mW 635 laser box (use the Ch1 trimpot screw to adjust the laser power until it is able to focus without ressonance pattern)
+
+The target can be used to test initial camera settings and once comfortable with operation, swap out for the fiber tip. 
+* Expect a change in the focal distance when alternating between the target and fiber tip. *
+
+Define the coordinate system as:
+X: Horizontal image-plane motion.
+Y: Vertical image-plane motion.
+Z: Motion along the optical axis (focus).
+
+A short exposure time should be used when measuring instantaneous mechanical displacement. For the Allied Vision camera used, the minimum exposure is 22.602 us. 
+
+# Calibration
+
+Before vibration testing, determine the image scale in: pixels/mm or mm/pixel
+The known dimensions and spatial frequencies of the 1951 USAF target can be used for calibration.
+Image displacement can then be converted from pixels into physical displacement: 
+
+A baseline image sequence should be collected with the UAS completely powered off. This measurement establishes the optical and image-processing noise floor.
+
+# Results Found
+
+Using a Mitutoyo 20x M Plan APO Objective Lens:
+Highest resolvable USAF element	was group 7 element 6
+Each pixel was 316 um
+
+Metric              | 	Baseline Result
+X max displacement	|   718 um  
+Y max displacement	|   628 um  
