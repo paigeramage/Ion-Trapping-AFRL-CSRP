@@ -6,7 +6,7 @@ This experiment requires Python 2 or 3 to be installed on the device that is run
 
 The following software will also need to be installed:
 1. DataRay (BladeCam2-XHR)- https://dataray.com/resources/downloads
-2. PicoScope7 (PicoScope 5444D MSO)- https://www.picotech.com/downloads
+2. PicoScope7 (PicoScope 5444D MSO)- https://www.picotech.com/downloads (you may have to turn off Windows Security App Blockers for Pico to run)
 3. picoSDK - Under the same link as PicoScope7 (follow directions online to install sdk after download)
 4. picoSDK Wrapper - https://github.com/picotech/picosdk-python-wrappers
 
