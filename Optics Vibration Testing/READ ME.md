@@ -15,7 +15,7 @@ The imaging system should consist of:
 4. Fiber tip plugged into a 4.6 mW 635 laser box (use the Ch1 trimpot screw to adjust the laser power until it is able to focus without ressonance pattern)
 
 The target can be used to test initial camera settings and once comfortable with operation, swap out for the fiber tip. 
-* Expect a change in the focal distance when alternating between the target and fiber tip. *
+!! Expect a change in the focal distance when alternating between the target and fiber tip. !!
 
 Define the coordinate system as:
 X: Horizontal image-plane motion.
@@ -35,9 +35,9 @@ A baseline image sequence should be collected with the UAS completely powered of
 ## Results Found
 
 Using a Mitutoyo 20x M Plan APO Objective Lens:
-Highest resolvable USAF element	was group 7 element 6
-Each pixel was 316 um
+- Highest resolvable USAF element	was group 7 element 6
+- Each pixel was 316 um
 
-Metric              | 	Baseline Result
-X max displacement	|   718 um  
-Y max displacement	|   628 um  
+Metric              |   Baseline Result
+X max displacement  |   718 um  
+Y max displacement  |   628 um  
