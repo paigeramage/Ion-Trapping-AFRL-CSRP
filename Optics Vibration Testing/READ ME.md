@@ -7,7 +7,7 @@ The test target provides known high-contrast spatial features that can be tracke
 perpendicular to the optical axis is measured primarily through X and Y image displacement, while vibration parallel to the optical 
 axis (Z) is evaluated through changes in focus and image quality.
 
-#Setup
+## Setup
 The imaging system should consist of:
 1. Thorlabs TTL100-A telecentric lens (https://www.thorlabs.com/item/TTL100-A)
 2. Allied Vision 1800 U-1240m Camera (https://www.edmundoptics.com/p/allied-vision-alvium-1800-u-1240m-117-1222mp-c-mount-usb-31-monochrome-camera/44763/)
@@ -24,7 +24,7 @@ Z: Motion along the optical axis (focus).
 
 A short exposure time should be used when measuring instantaneous mechanical displacement. For the Allied Vision camera used, the minimum exposure is 22.602 us. 
 
-# Calibration
+## Calibration
 
 Before vibration testing, determine the image scale in: pixels/mm or mm/pixel
 The known dimensions and spatial frequencies of the 1951 USAF target can be used for calibration.
@@ -32,7 +32,7 @@ Image displacement can then be converted from pixels into physical displacement:
 
 A baseline image sequence should be collected with the UAS completely powered off. This measurement establishes the optical and image-processing noise floor.
 
-# Results Found
+## Results Found
 
 Using a Mitutoyo 20x M Plan APO Objective Lens:
 Highest resolvable USAF element	was group 7 element 6
