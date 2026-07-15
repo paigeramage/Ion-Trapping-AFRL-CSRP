@@ -14,23 +14,20 @@ The imaging system should consist of:
 3. Positive 1951 USAF resolution test target (https://www.thorlabs.com/resolution-test-targets?tabName=Overview)
 4. Fiber tip plugged into a 4.6 mW 635 laser box (use the Ch1 trimpot screw to adjust the laser power until it is able to focus without ressonance pattern)
 
-The target can be used to test initial camera settings and once comfortable with operation, swap out for the fiber tip. 
-!! Expect a change in the focal distance when alternating between the target and fiber tip. !!
+You will need to download the following for the program to run properly:
+1. Vimba X Viewer
+2. cv2 (install with pip install cv2)
 
 Define the coordinate system as:
 X: Horizontal image-plane motion.
 Y: Vertical image-plane motion.
 Z: Motion along the optical axis (focus).
 
-A short exposure time should be used when measuring instantaneous mechanical displacement. For the Allied Vision camera used, the minimum exposure is 22.602 us. 
-
 ## Calibration
 
 Before vibration testing, determine the image scale in: pixels/mm or mm/pixel
 The known dimensions and spatial frequencies of the 1951 USAF target can be used for calibration.
 Image displacement can then be converted from pixels into physical displacement: 
-
-A baseline image sequence should be collected with the UAS completely powered off. This measurement establishes the optical and image-processing noise floor.
 
 ## Results Found
 
@@ -41,3 +38,11 @@ Using a Mitutoyo 20x M Plan APO Objective Lens:
 Metric              |   Baseline Result
 X max displacement  |   718 um  
 Y max displacement  |   628 um  
+
+## Notes
+- A baseline image sequence should be collected with the UAS completely powered off. This measurement establishes the optical and image-processing noise floor.
+- Use Vimba to focus the image before running the automated bursts. This will ensure you have a quality baseline. The camera cannot be open/running in Vimba when running the automated script (close manual camera before running python).
+- A short exposure time should be used when measuring instantaneous mechanical displacement. For the Allied Vision camera used, the minimum exposure is 22.602 us.
+- The target can be used to test initial camera settings and once comfortable operating the camera, swap it out for a fiber tip. 
+- !! Expect a change in the focal distance when alternating between the target and fiber tip. !! 
+
