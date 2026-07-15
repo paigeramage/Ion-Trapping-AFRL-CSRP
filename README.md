@@ -15,5 +15,9 @@ To Do:
 - Design the ablation laser mounting and allignment set up
 - Find/Develop Ubuntu Drivers for Vimba or Allied Vision Camera (must be automated in air)
 - Test radio communication to ethernet on the Dev Box
-- 
-- 
+- Establish Ubuntu/Linux server to host artix
+- Test Remote Connection & Operation of camera and picoscope
+- Build Trap Plate
+- Attach Fiber
+- Update the Weight Budget
+- Increase Documentation
