@@ -14,4 +14,6 @@ Disclaimer: ChatGPT and Claude AI were utilized in the development of this proje
 To Do:
 - Design the ablation laser mounting and allignment set up
 - Find/Develop Ubuntu Drivers for Vimba or Allied Vision Camera (must be automated in air)
-- Test radio communication to ether
+- Test radio communication to ethernet on the Dev Box
+- 
+- 
