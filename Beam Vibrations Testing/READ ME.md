@@ -29,6 +29,9 @@ Additionally, the following git command(s) need to be run through the command li
 - https://stackoverflow.com/questions/35518688/git-lfs-refused-to-track-my-large-files-properly-until-i-did-the-following
 - https://github.com/gunnargott/copterScripts
 
+## Results
+The measured beam motion was primarily consistent with the environmental noise observed when the drone was unpowered, indicating that ambient disturbances dominate the pointing error. While powered on, the drone increased the measurement noise floor by approximately 2×. No significant additional beam wander or systematic drift was observed. These results demonstrate that motor-induced vibration has a relatively minor impact on beam-pointing stability, supporting the feasibility of maintaining optical alignment for quantum sensing applications.
+
 ## Notes
 - The .npz files that this script creates can be used to process data previously collected after the fact. Ex: to generate new/different graphs.
 - to allign the Picoscope using the PicoScope7 software, turn Channels A-C on manual mode +-500mV. Then, allign the scope so that Channels A & B are at roughly 0mV and channel C is at roughly 400mV. It can be helpful to zoom in along the x-axis to see less noise. Channel A represents X position, B represents Y position, and C represents total voltage seen by the scope.
