@@ -40,7 +40,7 @@ X max displacement  |   718 um
 Y max displacement  |   628 um  
 
 ### Powered Drone Testing
-The illuminated fiber tip, used as a proxy for a single fluorescing trapped ion, remained within the microscope camera's field of view and focal distance throughout the vibration test. Motion was limited to cyclical oscillations induced by the drone motors, with no evidence of target loss or random displacement. This demonstrated that the platform's vibration characteristics are compatible with sustained optical observation of a fluorescing ion in a quantum sensing imaging system.
+The illuminated fiber tip, used as a proxy for a single fluorescing trapped ion, remained within the microscope camera's field of view and focal distance throughout the vibration test. Motion was limited to cyclical oscillations induced by the drone motors, with no evidence of target loss or random displacement. The largest vibrational effects on imaging occured during the first 5 seconds on powering on the drone as motors went from off to low power. Once powered on, the increases in speed had minimal effects on the position of the fiber tip. We attribute most motion in the system to the insecure attachment method used to hold the fiber tip in frame. This demonstrated that the platform's vibration characteristics are compatible with sustained optical observation of a fluorescing ion in a quantum sensing imaging system. To view the images taken during this test, see 2026_Summer_Intern_Work/Drone Running 2/ in the RITQ UAS Project Google Drive. 
 
 ## Notes
 - A baseline image sequence should be collected with the UAS completely powered off. This measurement establishes the optical and image-processing noise floor.
