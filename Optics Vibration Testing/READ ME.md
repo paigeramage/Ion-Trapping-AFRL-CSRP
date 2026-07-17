@@ -30,7 +30,7 @@ The known dimensions and spatial frequencies of the 1951 USAF target can be used
 Image displacement can then be converted from pixels into physical displacement: 
 
 ## Results Found
-
+### Ground Testing
 Using a Mitutoyo 20x M Plan APO Objective Lens:
 - Highest resolvable USAF element	was group 7 element 6
 - Each pixel was 316 um
@@ -38,6 +38,9 @@ Using a Mitutoyo 20x M Plan APO Objective Lens:
 Metric              |   Baseline Result
 X max displacement  |   718 um  
 Y max displacement  |   628 um  
+
+### Powered Drone Testing
+The illuminated fiber tip, used as a proxy for a single fluorescing trapped ion, remained within the microscope camera's field of view and focal distance throughout the vibration test. Motion was limited to cyclical oscillations induced by the drone motors, with no evidence of target loss or random displacement. This demonstrated that the platform's vibration characteristics are compatible with sustained optical observation of a fluorescing ion in a quantum sensing imaging system.
 
 ## Notes
 - A baseline image sequence should be collected with the UAS completely powered off. This measurement establishes the optical and image-processing noise floor.
